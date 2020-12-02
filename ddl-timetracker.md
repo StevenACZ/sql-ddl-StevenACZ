@@ -14,7 +14,7 @@ Some clarifications:
 1. Create a new database called `timetracker`
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+CREATE DATABASE timetracker;
 ```
 
 Expected result:
