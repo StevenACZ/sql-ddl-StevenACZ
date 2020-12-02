@@ -69,7 +69,14 @@ Check constraints:
    - By default the `closed` attribute should be `false`
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+CREATE TABLE projects (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(25) NOT NULL,
+    category VARCHAR(25) NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    closed BOOLEAN DEFAULT false NOT NULL
+);
 ```
 
 Expected result:
