@@ -36,7 +36,13 @@ postgres=# \l
    - `rate` should be grater than or equal to 0.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+CREATE TABLE users (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(25) NOT NULL,
+    role VARCHAR(50) NOT NULL,
+    rate INT CHECK (rate >= 0) NOT NULL
+);
 ```
 
 Expected result:
