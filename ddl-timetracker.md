@@ -169,11 +169,13 @@ Foreign-key constraints:
 After some revision, some changes should be done to our database.
 
 6. Changes on the `user` table
-   - The`email` field should be unique.
+   - The `email` field should be unique.
    - The name and role fields length are not enough. Change it to a maximum of 50 characters.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+ALTER TABLE users ADD UNIQUE (email);
+ALTER TABLE users ALTER name TYPE VARCHAR(50);
+ALTER TABLE users ALTER role TYPE VARCHAR(50);
 ```
 
 Expected result:
