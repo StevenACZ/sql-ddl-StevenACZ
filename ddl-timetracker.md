@@ -293,6 +293,8 @@ INSERT INTO users (name, email, role, rate)
 VALUES ('Renato', 'renato@codeable.la', 'front-end developer senior', 30);
 
 INSERT INTO users (name, email, role, rate) values ('Paty', 'paty@codeable.la', 'back-end developer senior', 32);
+
+INSERT INTO users (name, email, role, rate) values ('Franco', 'franco@codeable.la', 'front-end developer junior', 15);
 ```
 
 11. Insert the `project` data.
