@@ -230,7 +230,7 @@ Referenced by:
 8. Changes on the `user-project` table to have unique combination of user_id and project_id
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+ALTER TABLE users_projects ADD UNIQUE (user_id, project_id);
 ```
 
 Expected result:
