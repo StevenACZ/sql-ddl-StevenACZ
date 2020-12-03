@@ -417,4 +417,7 @@ INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (7, '2020-05-15', 
 INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (7, '2020-05-16', 4);
 
 INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (7, '2020-05-17', 5);
+
+
+INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (8, '2020-05-13', 2);
 ```
