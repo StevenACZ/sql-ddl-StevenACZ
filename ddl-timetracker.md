@@ -327,6 +327,8 @@ INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (1, 3, 180
 INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (2, 4, 5760);
 
 INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (2, 5, 23040);
+
+INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (3, 1, 2700);
 ```
 
 13. Insert the `daily-log` data.
