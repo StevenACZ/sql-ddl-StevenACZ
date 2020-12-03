@@ -103,7 +103,12 @@ Indexes:
    - `total_budget` should be grater than or equal to 0.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+CREATE TABLE users_projects (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    user_id BIGINT REFERENCES users (id) NOT NULL,
+    project_id BIGINT REFERENCES projects (id) NOT NULL,
+    total_budget INT CHECK (total_budget >= 0) NOT NULL
+);
 ```
 
 Expected result:
