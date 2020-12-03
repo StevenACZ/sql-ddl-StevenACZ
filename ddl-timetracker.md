@@ -203,7 +203,7 @@ Referenced by:
    - `end_date` should be greater than `start_date`
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+ALTER TABLE projects ADD CHECK (end_date > start_date);
 ```
 
 Expected result:
