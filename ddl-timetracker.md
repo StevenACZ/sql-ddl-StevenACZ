@@ -137,7 +137,12 @@ Foreign-key constraints:
    - `hours` should be grater than or equal to 0.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+CREATE TABLE dailys_logs (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    user_project_id BIGINT REFERENCES users_projects (id) NOT NULL,
+    date DATE NOT NULL,
+    hours INT CHECK (hours >= 0) NOT NULL
+);
 ```
 
 Expected result:
