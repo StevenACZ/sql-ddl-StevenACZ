@@ -344,6 +344,8 @@ INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (4, 1, 288
 ```SQL
 INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (1, '2020-05-13', 2);
 
+INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (1, '2020-05-14', 2);
+
 INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (1, '2020-05-15', 4);
 
 INSERT INTO dailys_logs (user_project_id, date, hours) VALUES (1, '2020-05-16', 3);
