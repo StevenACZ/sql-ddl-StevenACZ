@@ -291,6 +291,8 @@ While the app gets ready, the team has been tracking their hours manually. Use [
 ```SQL
 INSERT INTO users (name, email, role, rate)
 VALUES ('Renato', 'renato@codeable.la', 'front-end developer senior', 30);
+
+INSERT INTO users (name, email, role, rate) values ('Paty', 'paty@codeable.la', 'back-end developer senior', 32);
 ```
 
 11. Insert the `project` data.
