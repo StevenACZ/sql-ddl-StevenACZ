@@ -289,7 +289,8 @@ While the app gets ready, the team has been tracking their hours manually. Use [
 10. Insert the `user` data.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+INSERT INTO users (name, email, role, rate)
+VALUES ('Renato', 'renato@codeable.la', 'front-end developer senior', 30);
 ```
 
 11. Insert the `project` data.
