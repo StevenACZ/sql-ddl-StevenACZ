@@ -321,6 +321,8 @@ INSERT INTO projects (name, category, start_date, end_date, closed) VALUES ('Cod
 INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (1, 1, 4320);
 
 INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (1, 2, 8640);
+
+INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (1, 3, 18000);
 ```
 
 13. Insert the `daily-log` data.
