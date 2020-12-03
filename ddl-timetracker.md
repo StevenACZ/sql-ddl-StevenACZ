@@ -305,6 +305,8 @@ ALUES ('Line Balancing', 'Business', '2020-05-13', '2020-09-10', false);
 INSERT INTO projects (name, category, start_date, end_date, closed) VALUES ('Overbooking', 'Business', '2020-05-13', '2020-10-10', false);
 
 INSERT INTO projects (name, category, start_date, end_date, closed) VALUES ('Kampu', 'Sports', '2020-05-13', '2020-06-27', false);
+
+INSERT INTO projects (name, category, start_date, end_date, closed) VALUES ('Codeable App', 'Education', '2020-05-13', '2020-11-09', false);
 ```
 
 12. Insert the `user-Project` data.
