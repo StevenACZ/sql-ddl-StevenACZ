@@ -296,7 +296,8 @@ VALUES ('Renato', 'renato@codeable.la', 'front-end developer senior', 30);
 11. Insert the `project` data.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+INSERT INTO projects (name, category, start_date, end_date, closed)
+VALUES ('Shiftme', 'Business', '2020-05-13', '2020-08-11', false);
 ```
 
 12. Insert the `user-Project` data.
