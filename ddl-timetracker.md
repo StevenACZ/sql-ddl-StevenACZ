@@ -259,7 +259,7 @@ Referenced by:
 9. Changes on the `daily-log` table to have unique combination of user_project_id and date
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+ALTER TABLE dailys_logs ADD UNIQUE (user_project_id, date);
 ```
 
 Expected result:
