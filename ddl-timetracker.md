@@ -298,6 +298,9 @@ VALUES ('Renato', 'renato@codeable.la', 'front-end developer senior', 30);
 ```SQL
 INSERT INTO projects (name, category, start_date, end_date, closed)
 VALUES ('Shiftme', 'Business', '2020-05-13', '2020-08-11', false);
+
+INSERT INTO projects (name, category, start_date, end_date, closed) V
+ALUES ('Line Balancing', 'Business', '2020-05-13', '2020-09-10', false);
 ```
 
 12. Insert the `user-Project` data.
