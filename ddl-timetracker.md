@@ -303,7 +303,7 @@ VALUES ('Shiftme', 'Business', '2020-05-13', '2020-08-11', false);
 12. Insert the `user-Project` data.
 
 ```SQL
-<INSERT YOUR SQL STATEMENTS HERE>
+INSERT INTO users_projects (user_id, project_id, total_budget) VALUES (1, 1, 4320);
 ```
 
 13. Insert the `daily-log` data.
